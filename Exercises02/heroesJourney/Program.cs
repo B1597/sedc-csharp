@@ -285,7 +285,7 @@ namespace heroesJourney
                     Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("Health: " + health + "\n");
                     Console.WriteLine("1) Fight");
-                    Console.WriteLine("2) Run");
+                    Console.WriteLine("2) Run" + "\n");
                     input = Console.ReadLine();
 
                     if (input == "1")
@@ -294,7 +294,7 @@ namespace heroesJourney
                         {
                             health -= 20;
 
-                            Console.WriteLine("You lost the fight!",
+                            Console.WriteLine("\n" + "You lost the fight!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -305,7 +305,7 @@ namespace heroesJourney
                         }
                         else if (strength >= randomStr)
                         {
-                            Console.WriteLine("You won the fight!",
+                            Console.WriteLine("\n" + "You won the fight!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -321,7 +321,7 @@ namespace heroesJourney
                         {
                             health -= 20;
 
-                            Console.WriteLine("You didn't manage to run away!",
+                            Console.WriteLine("\n" + "You didn't manage to run away!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -332,7 +332,7 @@ namespace heroesJourney
                         }
                         else if (agility >= randomAgi)
                         {
-                            Console.WriteLine("You ran away!",
+                            Console.WriteLine("\n" + "You ran away!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -344,7 +344,8 @@ namespace heroesJourney
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options. Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options. Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
@@ -357,7 +358,7 @@ namespace heroesJourney
                     Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("Health: " + health + "\n");
                     Console.WriteLine("1) Fight");
-                    Console.WriteLine("2) Run");
+                    Console.WriteLine("2) Run" + "\n");
                     input = Console.ReadLine();
 
                     if (input == "1")
@@ -366,7 +367,7 @@ namespace heroesJourney
                         {
                             health -= 30;
 
-                            Console.WriteLine("You lost the fight!",
+                            Console.WriteLine("\n" + "You lost the fight!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -377,7 +378,7 @@ namespace heroesJourney
                         }
                         else if (strength >= randomStr1)
                         {
-                            Console.WriteLine("You won the fight!",
+                            Console.WriteLine("\n" + "You won the fight!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -393,7 +394,7 @@ namespace heroesJourney
                         {
                             health -= 30;
 
-                            Console.WriteLine("You didn't manage to run away!",
+                            Console.WriteLine("\n" + "You didn't manage to run away!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -404,7 +405,7 @@ namespace heroesJourney
                         }
                         else if (agility >= randomAgi1)
                         {
-                            Console.WriteLine("You ran away!",
+                            Console.WriteLine("\n" + "You ran away!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -416,7 +417,8 @@ namespace heroesJourney
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options. Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options. Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
@@ -429,7 +431,7 @@ namespace heroesJourney
                     Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("Health: " + health + "\n");
                     Console.WriteLine("1) Fight");
-                    Console.WriteLine("2) Run");
+                    Console.WriteLine("2) Run" + "\n");
                     input = Console.ReadLine();
 
                     if (input == "1")
@@ -438,7 +440,7 @@ namespace heroesJourney
                         {
                             health -= 50;
 
-                            Console.WriteLine("You lost the fight!",
+                            Console.WriteLine("\n" + "You lost the fight!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -449,7 +451,7 @@ namespace heroesJourney
                         }
                         else if (strength >= randomStr2)
                         {
-                            Console.WriteLine("You won the fight!",
+                            Console.WriteLine("\n" + "You won the fight!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -465,7 +467,7 @@ namespace heroesJourney
                         {
                             health -= 50;
 
-                            Console.WriteLine("You didn't manage to run away!",
+                            Console.WriteLine("\n" + "You didn't manage to run away!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -476,7 +478,7 @@ namespace heroesJourney
                         }
                         else if (agility >= randomAgi2)
                         {
-                            Console.WriteLine("You ran away!",
+                            Console.WriteLine("\n" + "You ran away!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -488,7 +490,8 @@ namespace heroesJourney
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options. Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options. Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
@@ -501,7 +504,7 @@ namespace heroesJourney
                     Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("Health: " + health + "\n");
                     Console.WriteLine("1) Fight");
-                    Console.WriteLine("2) Run");
+                    Console.WriteLine("2) Run" + "\n");
                     input = Console.ReadLine();
 
                     if (input == "1")
@@ -510,7 +513,7 @@ namespace heroesJourney
                         {
                             health -= 10;
 
-                            Console.WriteLine("You lost the fight!",
+                            Console.WriteLine("\n" + "You lost the fight!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -521,7 +524,7 @@ namespace heroesJourney
                         }
                         else if (strength >= randomStr3)
                         {
-                            Console.WriteLine("You won the fight!",
+                            Console.WriteLine("\n" + "You won the fight!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -537,7 +540,7 @@ namespace heroesJourney
                         {
                             health -= 10;
 
-                            Console.WriteLine("You didn't manage to run away!",
+                            Console.WriteLine("\n" + "You didn't manage to run away!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -548,7 +551,7 @@ namespace heroesJourney
                         }
                         else if (agility >= randomAgi3)
                         {
-                            Console.WriteLine("You ran away!",
+                            Console.WriteLine("\n" + "You ran away!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -560,7 +563,8 @@ namespace heroesJourney
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options. Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options. Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
@@ -573,7 +577,7 @@ namespace heroesJourney
                     Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("Health: " + health + "\n");
                     Console.WriteLine("1) Fight");
-                    Console.WriteLine("2) Run");
+                    Console.WriteLine("2) Run" + "\n");
                     input = Console.ReadLine();
 
                     if (input == "1")
@@ -582,7 +586,7 @@ namespace heroesJourney
                         {
                             health -= 30;
 
-                            Console.WriteLine("You lost the fight!",
+                            Console.WriteLine("\n" + "You lost the fight!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -593,7 +597,7 @@ namespace heroesJourney
                         }
                         else if (strength >= randomStr4)
                         {
-                            Console.WriteLine("You won the fight!",
+                            Console.WriteLine("\n" + "You won the fight!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -609,7 +613,7 @@ namespace heroesJourney
                         {
                             health -= 30;
 
-                            Console.WriteLine("You didn't manage to run away!",
+                            Console.WriteLine("\n" + "You didn't manage to run away!",
                                 Console.ForegroundColor = ConsoleColor.DarkRed);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -620,7 +624,7 @@ namespace heroesJourney
                         }
                         else if (agility >= randomAgi4)
                         {
-                            Console.WriteLine("You ran away!",
+                            Console.WriteLine("\n" + "You ran away!",
                                 Console.ForegroundColor = ConsoleColor.Green);
                             Console.WriteLine("Press enter to continue...",
                                 Console.ForegroundColor = ConsoleColor.White);
@@ -632,7 +636,8 @@ namespace heroesJourney
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options. Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options. Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
@@ -655,14 +660,15 @@ namespace heroesJourney
                     Console.WriteLine("Want to play again?",
                             Console.ForegroundColor = ConsoleColor.White);
                     Console.WriteLine("1) Yes");
-                    Console.WriteLine("2) No");
+                    Console.WriteLine("2) No" + "\n");
                     
                     input = Console.ReadLine();
 
                     if (input == "1")
                     {
                         Console.Clear();
-                        Console.WriteLine("Press Enter to start with character creation...");
+                        Console.WriteLine("Press Enter to start with character creation...",
+                            Console.ForegroundColor = ConsoleColor.White);
                         Console.ReadLine();
                         Console.Clear();
 
@@ -672,14 +678,16 @@ namespace heroesJourney
                     else if (input == "2")
                     {
                         Console.Clear();
-                        Console.WriteLine("Thank you for playing. Press Enter to exit and have a nice day!");
+                        Console.WriteLine("Thank you for playing. Press Enter to exit and have a nice day!",
+                            Console.ForegroundColor = ConsoleColor.White);
 
                         startOver = false;
                         heroesJourney = false;
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a valid number from the options.Press enter and try again...");
+                        Console.WriteLine("\n" + "Please enter a valid number from the options.Press enter and try again...",
+                            Console.ForegroundColor = ConsoleColor.DarkRed);
                         Console.ReadLine();
                         Console.Clear();
                     }
