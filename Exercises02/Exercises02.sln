@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroesJourney", "heroesJourney\heroesJourney.csproj", "{EC5E0E17-5723-4309-B400-6FC7C8CB761E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heroesJourney", "heroesJourney\heroesJourney.csproj", "{EC5E0E17-5723-4309-B400-6FC7C8CB761E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realCalculatorApp", "realCalculatorApp\realCalculatorApp.csproj", "{D2CBEF46-0462-4E55-9AA3-12C95960FA79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EC5E0E17-5723-4309-B400-6FC7C8CB761E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC5E0E17-5723-4309-B400-6FC7C8CB761E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC5E0E17-5723-4309-B400-6FC7C8CB761E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CBEF46-0462-4E55-9AA3-12C95960FA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CBEF46-0462-4E55-9AA3-12C95960FA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CBEF46-0462-4E55-9AA3-12C95960FA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CBEF46-0462-4E55-9AA3-12C95960FA79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
