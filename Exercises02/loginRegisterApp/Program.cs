@@ -109,7 +109,7 @@ namespace loginRegisterApp
                         var lower = 0;
                         var symbol = 0;
 
-                        foreach(var ch in password)
+                        foreach(char ch in password)
                         {
                             if(char.IsDigit(ch)) digit++;
                             if(char.IsUpper(ch)) upper++;
