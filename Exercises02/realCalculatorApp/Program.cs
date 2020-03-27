@@ -91,7 +91,6 @@ namespace realCalculatorApp
                     Console.ReadLine();
                     Console.Clear();
                     break;
-
                 }    
             }
 
