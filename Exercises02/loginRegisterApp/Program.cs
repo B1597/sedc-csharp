@@ -104,10 +104,10 @@ namespace loginRegisterApp
                             Console.ForegroundColor = ConsoleColor.White);
                         password = Console.ReadLine();
 
-                        var digit = 0;
-                        var upper = 0;
-                        var lower = 0;
-                        var symbol = 0;
+                        int digit = 0;
+                        int upper = 0;
+                        int lower = 0;
+                        int symbol = 0;
 
                         foreach(char ch in password)
                         {
